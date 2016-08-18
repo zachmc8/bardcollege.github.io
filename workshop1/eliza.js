@@ -67,10 +67,8 @@ var rules = {
     "Why do you want ~y?",
     "Suppose you got ~y soon.",
   ],
-    "~*x I need ~*y": [
-    "What would it mean if you got ~y?",
-    "Why do you need ~y?",
-    "Suppose you got ~y soon.",
+    "~*x rain ~*y": [
+    "The rain in spain falls mainly in the plain",
   ],
   "~*x if ~*y": [
     "Do you really think it's likely that ~y?",
@@ -78,19 +76,14 @@ var rules = {
     "What do you think about ~y?",
     "Really--if ~y?",
   ],
-  "~*x I dreamt ~*y": [
-    "Really-- ~y",
-    "Have you ever fantasized ~y while you were awake",
-    "Have you dreamt of ~y before?",
+  "~*x welcome ~*y": [
+    "How kind of you to let me come",
   ],
   "~*x I dream about ~*y": [
     "How do you feel about ~y in reality?",
   ],
-  "~*x dream ~*y": [
-    "What does this dream suggest to you?",
-    "Do you dream often?",
-    "What persons appear in your dreams?",
-    "Don't you believe that dream has to do with your problem?",
+  "~*x I stayed up all night~*y": [
+    "I could have danced all night",
   ],
   "~*x my mother ~*y": [
     "Who else in your family ~y?",
